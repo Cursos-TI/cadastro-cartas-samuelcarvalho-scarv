@@ -48,5 +48,23 @@ scanf("%d", &pontosturisticos);
 
 printf("\nAgora vamos coletar os dados da segunda carta! Por favor, preencha as informacoes solicitadas abaixo.\n");
 
+  //Declarando as variáveis para armazenar as informações da segunda carta.
+
+char estado2;
+char codigocarta2 [4];
+char nomecidade2 [20];
+int populacao2;
+float area2;
+float pib2;
+int pontosturisticos2;
+
+
+
+
+
+
+
+
+
 return 0;
 } 
