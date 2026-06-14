@@ -58,6 +58,28 @@ float area2;
 float pib2;
 int pontosturisticos2;
 
+  //Coletando as entradas do usuário para a segunda carta.
+
+printf("\nUtilize uma letra de 'A' a 'h' para representar o ESTADO da sua carta: \n");
+scanf(" %c", &estado2);
+
+printf("Utilize um código simples de 3 dígitos para registrar sua carta iniciando com a letra escolhida anteriormente (exemplo: A01, B12 etc): \n");
+scanf("%s", codigocarta2);
+
+printf("Escolha o nome da cidade: \n");
+scanf("%s", nomecidade2);
+
+printf("Informe o número de habitantes da cidade (somente números): \n");
+scanf("%d", &populacao2);
+
+printf("Insira a área da cidade em km²: \n");
+scanf("%f", &area2);
+
+printf("Insira o valor do PIB da cidade em bilhões de reais: \n");
+scanf("%f", &pib2);
+
+printf("Insira a quantidade de pontos turísticos da cidade: \n");
+scanf("%d", &pontosturisticos2);
 
 
 
