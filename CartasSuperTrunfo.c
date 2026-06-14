@@ -46,7 +46,7 @@ scanf("%d", &pontosturisticos);
 
   // Aqui vai parecer redundância mas como ainda não sei como duplicar tudo sem repetir, vamos copiar o código diferenciando nomenclatura das variáveis somente.
 
-printf("\nAgora vamos coletar os dados da segunda carta! Por favor, preencha as informacoes solicitadas abaixo.\n");
+printf("\nAgora vamos coletar os dados da segunda carta! Por favor, preencha as informações solicitadas abaixo.\n");
 
   //Declarando as variáveis para armazenar as informações da segunda carta.
 
@@ -81,10 +81,29 @@ scanf("%f", &pib2);
 printf("Insira a quantidade de pontos turísticos da cidade: \n");
 scanf("%d", &pontosturisticos2);
 
+  // Agora vamos exibir na tela as informções das cartas criadas pelo usuário. 
 
+printf("\nSuas cartas foram criadas!\n");
 
+printf("\nCarta 1:\n");
 
+printf("Estado: %c\n",estado);
+printf("Código da carta: %s\n", codigocarta);
+printf("Nome da cidade: %s\n", nomecidade);
+printf("População: %d\n", populacao);
+printf("Área: %.2f km²\n", area);
+printf("PIB: %.2f bilhões de reais\n", pib);
+printf("Pontos turísticos: %d\n", pontosturisticos);
 
+printf("\nCarta 2:\n");
+
+printf("Estado: %c\n", estado2);
+printf("Código: %s\n", codigocarta2);
+printf("Nome da cidade: %s\n", nomecidade2);
+printf("População: %d pessoas\n", populacao2);
+printf("Área: %.2f km²\n", area2);
+printf("PIB: %.2f bilhões de reais\n", pib2);
+printf("Pontos turísticos: %d\n", pontosturisticos2);
 
 
 
