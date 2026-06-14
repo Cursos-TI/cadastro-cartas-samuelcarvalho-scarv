@@ -21,7 +21,7 @@ printf("Para iniciar, vamos comecar criando as suas cartas! Por favor, preencha 
     float pib;
     int pontosturisticos;
 
-  // Área para entrada de dados
+  //Coletando as entradas do usuário para a primeira carta.
 
 printf("\nUtilize uma letra de 'A' a 'H' para representar o ESTADO da sua carta: \n");
 scanf("%c", &estado);
@@ -44,7 +44,9 @@ scanf("%f", &pib);
 printf("Insira a quantidade de pontos turísticos da cidade: \n");
 scanf("%d", &pontosturisticos);
 
-  // Área para exibição dos dados da cidade
+  // Aqui vai parecer redundância mas como ainda não sei como duplicar tudo sem repetir, vamos copiar o código diferenciando nomenclatura das variáveis somente.
+
+printf("\nAgora vamos coletar os dados da segunda carta! Por favor, preencha as informacoes solicitadas abaixo.\n");
 
 return 0;
 } 
