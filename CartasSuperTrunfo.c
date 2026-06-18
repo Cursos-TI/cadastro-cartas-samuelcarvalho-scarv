@@ -58,6 +58,11 @@ float area2;
 float pib2;
 int pontosturisticos2;
 
+//Declarando variáveis do desafio intermediário
+
+float densidadepopulacional;
+float pibpercapita;
+
   //Coletando as entradas do usuário para a segunda carta.
 
 printf("\nUtilize uma letra de 'A' a 'h' para representar o ESTADO da sua carta: \n");
