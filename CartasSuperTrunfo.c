@@ -111,7 +111,7 @@ densidadepopulacional = (float) populacao / area;
 printf("Densidade populanional: %.2fkm²\n", densidadepopulacional);
 
 pibpercapita = (float) pib / populacao;
-printf("PIB per capita: %.2f\n", pibpercapita);
+printf("PIB per capita: %.2f reais\n", pibpercapita);
 
 printf("\nCarta 2:\n");
 
@@ -129,7 +129,7 @@ densidadepopulacional2 = (float) populacao2 / area2;
 printf("Densidade populanional: %.2fkm²\n", densidadepopulacional2);
 
 pibpercapita2 = (float) pib2 / populacao2;
-printf("PIB per capita: %.2f\n", pibpercapita2);
+printf("PIB per capita: %.2f reais\n", pibpercapita2);
 
 return 0;
 
