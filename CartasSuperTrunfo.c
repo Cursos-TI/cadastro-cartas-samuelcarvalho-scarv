@@ -21,6 +21,11 @@ printf("Para iniciar, vamos comecar criando as suas cartas! Por favor, preencha 
     float pib;
     int pontosturisticos;
 
+  //Declarando variáveis do desafio intermediário
+
+    float densidadepopulacional;
+    float pibpercapita;
+
   //Coletando as entradas do usuário para a primeira carta.
 
 printf("\nUtilize uma letra de 'A' a 'H' para representar o ESTADO da sua carta: \n");
@@ -58,10 +63,10 @@ float area2;
 float pib2;
 int pontosturisticos2;
 
-//Declarando variáveis do desafio intermediário
+//Declarando variáveis do desafio intermediário carta 2.
 
-float densidadepopulacional;
-float pibpercapita;
+float densidadepopulacional2;
+float pibpercapita2;
 
   //Coletando as entradas do usuário para a segunda carta.
 
@@ -100,6 +105,14 @@ printf("Área: %.2f km²\n", area);
 printf("PIB: %.2f bilhões de reais\n", pib);
 printf("Pontos turísticos: %d\n", pontosturisticos);
 
+//Cáculo de PIB per capita e densidade demográfica, além da exibição na tela (carta 1).
+
+densidadepopulacional = (float) populacao / area;
+printf("Densidade populanional: %.2fkm²\n", densidadepopulacional);
+
+pibpercapita = (float) pib / populacao;
+printf("PIB per capita: %.2f\n", pibpercapita);
+
 printf("\nCarta 2:\n");
 
 printf("Estado: %c\n", estado2);
@@ -110,7 +123,14 @@ printf("Área: %.2f km²\n", area2);
 printf("PIB: %.2f bilhões de reais\n", pib2);
 printf("Pontos turísticos: %d\n", pontosturisticos2);
 
+//Cáculo de PIB per capita e densidade demográfica, além da exibição na tela (carta 2).
 
+densidadepopulacional2 = (float) populacao2 / area2;
+printf("Densidade populanional: %.2fkm²\n", densidadepopulacional2);
+
+pibpercapita2 = (float) pib2 / populacao2;
+printf("PIB per capita: %.2f\n", pibpercapita2);
 
 return 0;
+
 } 
