@@ -29,7 +29,7 @@ printf("Para iniciar, vamos comecar criando as suas cartas! Por favor, preencha 
     float densidadepopulacional;
     float pibpercapita;
 
-  //Criando variável "super poder" para carta 2
+  //Criando variável "super poder" para carta 1
 
     float superpoder1;  
 
@@ -155,18 +155,25 @@ printf("PIB per capita: %.2f reais\n", pibpercapita2);
 superpoder2 = (float) populacao2 + area2 + pontosturisticos2 + pibpercapita2 + (1.0/densidadepopulacional2);
 printf("Super poder carta2: %.2f\n", superpoder2);
 
-printf("Agora vamos mostrar a pontuação, para resultado (1) a primeira carta vence.\nPara resultado (0), a segunda carta vence. Veja os resultados e some seus pontos");
+printf("\nAgora vamos mostrar a pontuação, para resultado (1) a primeira carta vence.\nPara resultado (0), a segunda carta vence.\n Veja os resultados e some seus pontos!!!\n");
 
 printf("Comparação das cartas:\n");
 
+printf("População vencedora: %d\n", populacao > populacao2);
 
+printf("Área vencedora: %d\n", area > area2);
 
+printf("Pib vencedor: %d\n", pib > pib2);
 
+printf("Pontos Turísticos vendedores: %d\n", pontosturisticos > pontosturisticos2);
 
+printf("Densidade Populacional vencedora: %d\n", densidadepopulacional < densidadepopulacional2);
 
+printf("Pib per capita vencedora: %d\n", pibpercapita > pibpercapita2);
 
+printf("Super Poder vencedor: %d\n", superpoder1 > superpoder2);
 
-
+printf("\nAgora some as categorias e veja qual carta ganhou!!!!!!");
 
 
 
