@@ -180,3 +180,7 @@ printf("\nAgora some as categorias e veja qual carta ganhou!!!!!!");
 return 0;
 
 } 
+
+// A partir daqui inicia-se a segunda parte onde iremos agregar estruturas de decisão ao jogo.
+// Irei salvar essa parte do repositor como marco de divisão entre as tarefas.
+
